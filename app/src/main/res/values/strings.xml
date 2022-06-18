@@ -1,0 +1,19 @@
+<resources>
+    <!-- ARRUMAR!!!!!!!! DIVIDIR BTNS E TXTS -->
+    <string name="app_name">Auto Home</string>
+    <string name="btnMenuIluminacao">Iluminação</string>
+    <string name="btnMenuJardim">Jardim</string>
+    <string name="btnMenuJanelas">Janelas</string>
+    <string name="btnMenuCameras">Cameras</string>
+    <string name="btnMenuStatus">Status</string>
+    <string name="txtSala">Sala</string>
+    <string name="txtQuarto">Quarto</string>
+    <string name="txtJardim">Jardim</string>
+    <string name="txtStatusDefault">Ligado/Desligado</string>
+    <string name="txtStatus">Status</string>
+
+    <!-- SWITCHES -->
+    <string name="swtIluminacaoSala">sala</string>
+    <string name="swtIluminacaoQuarto">quarto</string>
+    <string name="swtIluminacaoJardim">jardim</string>
+</resources>
