@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Automação</title>
+    <link rel="stylesheet" href="automacao.css">
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Projeto Automação</h1>
+    </header>
+    <section>
+        <div id="iluminacao">
+            <strong>Iluminação</strong>
+            <ul>
+                <li>Sala:</li>
+                <label for="sala-status">Ligado</label>
+                <input type="radio" name="iluminacao-sala-status" id="iluminacao-sala-ligado">
+                <label for="sala-status">Desligado</label>
+                <input type="radio" name="iluminacao-sala-status" id="iluminacao-sala-desligado">
+                <li>Quarto:</li>
+                <label for="quarto-status">Ligado</label>
+                <input type="radio" name="iluminacao-quarto-status" id="iluminacao-quarto-ligado">
+                <label for="quarto-status">Desligado</label>
+                <input type="radio" name="iluminacao-quarto-status" id="iluminacao-quarto-desligado">
+            </ul>
+        </div>
+        <div>
+            <strong>Jardim</strong>
+            <ul>
+                <li>Iluminação do Jardim:</li>
+                <label for="iluminacao-jardim-status">Ligado</label>
+                <input type="radio" name="iluminacao-jardim-status" id="iluminacao-jardim-ligado">
+                <label for="iluminacao-jardim-status">Desligado</label>
+                <input type="radio" name="iluminacao-jardim-status" id="iluminacao-jardim-desligado">
+                <li>Regador Automático:</li>
+                <label for="regador-jardim-status">Ligado</label>
+                <input type="radio" name="regador-jardim-status" id="regador-jardim-ligado">
+                <label for="regador-jardim-status">Desligado</label>
+                <input type="radio" name="regador-jardim-status" id="regador-jardim-desligado">
+            </ul>
+        </div>
+        <div id="botao-atualizar">
+            <input id="btnAtualizar" type="button" class="button" value="Atualizar" onclick="atualizar()">
+            <p id="demo">demo</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Minha Marca</p>
+    </footer>
+    <script src="automacao.js"></script>
+</body>
+</html>
